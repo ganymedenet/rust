@@ -3,10 +3,10 @@ use std::time::Instant;
 fn main(){
     let now = Instant::now();
 
-    let mut n = 1;
-    let mut x:i128 = 5;
+    let mut n:i32 = 1;
+    let mut x:i32 = 0;
 
-    while n < 9999999 {
+    while n < 99999999 {
         x = 999 * 999;
         n += 1;
     }
